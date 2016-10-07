@@ -1,14 +1,14 @@
-import { RecipeBookPage } from './app.po';
+import { TestAngular2Page } from './app.po';
 
-describe('recipe-book App', function() {
-  let page: RecipeBookPage;
+describe('test-angular2 App', function() {
+  let page: TestAngular2Page;
 
   beforeEach(() => {
-    page = new RecipeBookPage();
+    page = new TestAngular2Page();
   });
 
   it('should display message saying app works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('rb works!');
+    expect(page.getParagraphText()).toEqual('app works!');
   });
 });

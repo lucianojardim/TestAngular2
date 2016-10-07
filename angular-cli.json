@@ -1,7 +1,7 @@
 {
   "project": {
-    "version": "1.0.0-beta.14",
-    "name": "recipe-book"
+    "version": "1.0.0-beta.16",
+    "name": "test-angular2"
   },
   "apps": [
     {
@@ -12,20 +12,13 @@
       "main": "main.ts",
       "test": "test.ts",
       "tsconfig": "tsconfig.json",
-      "prefix": "rb",
+      "prefix": "app",
       "mobile": false,
       "styles": [
-        "styles.css"
-      ],
-      "scripts": [
-        "../node_modules/jquery/dist/jquery.js",
-        "../node_modules/tether/dist/js/tether.js",
-        "../node_modules/bootstrap/dist/js/bootstrap.js"
-      ],
-      "styles": [
         "styles.css",
-        "../node_modules/bootstrap/dist/css/bootstrap.css"
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css"
       ],
+      "scripts": [],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
